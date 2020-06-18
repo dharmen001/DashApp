@@ -23,7 +23,7 @@ tab_selected_style = {
     'padding': '6px'
 }
 
-image_filename = 'C:/sapientrepo/Dash_App/assets/Screenshot_3.png'
+image_filename = 'Screenshot_3.png'
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 
 app.layout = html.Div([html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),
