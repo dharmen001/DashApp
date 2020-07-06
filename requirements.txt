@@ -16,7 +16,7 @@ backcall==0.1.0
 base58==1.0.3
 beautifulsoup4==4.7.1
 BigQuery-Python==1.14.1
-bleach==3.1.0
+bleach==3.1.4
 blinker==1.4
 blis==0.4.1
 boto==2.49.0
